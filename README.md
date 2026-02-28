@@ -1,6 +1,6 @@
 # To-Do-App
 
-This is a React Native and Expo project for a simple To-Do application.
+This is a [React Native](https://reactnative.dev/) and [Expo](https://expo.dev) project for a simple To-Do application.
 
 ## Get started
 
@@ -21,7 +21,7 @@ You can open the app in:
 - Development build
 - Android emulator
 - iOS simulator
-- Expo Go
+- Expo Go(https://expo.dev/go)
 
 Start developing by editing the files inside the **app** directory. This project uses file-based routing.
 
@@ -45,4 +45,4 @@ Feel free to fork this project and submit pull requests.
 
 ## Author
 
-Rawan Gamal - GitHub: https://github.com/rawangamal5
+Rawan Gamal
