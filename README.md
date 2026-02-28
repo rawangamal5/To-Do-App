@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-# Welcome to your Expo app 👋
+# To-Do-App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a [React Native](https://reactnative.dev/) and [Expo](https://expo.dev) project for a simple To-Do application.
 
 ## Get started
 
@@ -9,46 +8,49 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
    ```bash
    npm install
-   ```
 
-2. Start the app
+Start the app
 
-   ```bash
-   npx expo start
-   ```
+npx expo start
 
-In the output, you'll find options to open the app in a
+You can open the app in:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+development build
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Android emulator
 
-## Get a fresh project
+iOS simulator
 
-When you're ready, run:
+Expo Go
 
-```bash
-npm run reset-project
-```
+Start developing by editing the files inside the app directory. This project uses file-based routing
+.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Features
 
-## Learn more
+Add, edit, and delete tasks
 
-To learn more about developing your project with Expo, look at the following resources:
+Mark tasks as done/undone
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Clear all tasks for a selected date
 
-## Join the community
+Horizontal date picker to navigate through days
 
-Join our community of developers creating universal apps.
+Persistent tasks across sessions
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-=======
-# To-Do-App
->>>>>>> 495f2bc9b35d12978b82d5762d5ccaee8cbde02d
+Learn more
+
+Expo documentation
+: Learn fundamentals or advanced topics.
+
+React Native documentation
+
+Learn Expo tutorial
+
+Contributing
+
+Feel free to fork this project and submit pull requests.
+
+Author
+
+Rawan Gamal - GitHub
