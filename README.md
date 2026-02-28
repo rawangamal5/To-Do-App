@@ -6,51 +6,43 @@ This is a [React Native](https://reactnative.dev/) and [Expo](https://expo.dev) 
 
 1. Install dependencies
 
-   ```bash
-   npm install
 
-Start the app
+npm install
+
+
+2. Start the app
+
 
 npx expo start
 
+
 You can open the app in:
 
-development build
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- Android emulator
+- iOS simulator
+- [Expo Go](https://expo.dev/go)
 
-Android emulator
+Start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-iOS simulator
+## Features
 
-Expo Go
+- Add, edit, and delete tasks
+- Mark tasks as done/undone
+- Clear all tasks for a selected date
+- Horizontal date picker to navigate through days
+- Persistent tasks across sessions
 
-Start developing by editing the files inside the app directory. This project uses file-based routing
-.
+## Learn more
 
-Features
+- [Expo documentation](https://docs.expo.dev/)
+- [React Native documentation](https://reactnative.dev/docs/getting-started)
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/)
 
-Add, edit, and delete tasks
-
-Mark tasks as done/undone
-
-Clear all tasks for a selected date
-
-Horizontal date picker to navigate through days
-
-Persistent tasks across sessions
-
-Learn more
-
-Expo documentation
-: Learn fundamentals or advanced topics.
-
-React Native documentation
-
-Learn Expo tutorial
-
-Contributing
+## Contributing
 
 Feel free to fork this project and submit pull requests.
 
-Author
+## Author
 
-Rawan Gamal - GitHub
+**Rawan Gamal** - [GitHub](https://github.com/rawangamal5)
