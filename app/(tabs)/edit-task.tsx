@@ -1,4 +1,3 @@
-// app/edit-task.tsx
 import { useLocalSearchParams, useRouter } from "expo-router";
 import React, { useEffect, useState } from "react";
 import {
@@ -163,7 +162,7 @@ export default function EditTask() {
             {/* Cancel Button */}
             <TouchableOpacity
                 style={[styles.buttonSave, styles.buttonCancel]}
-                onPress={() => router.back()} // ترجع للصفحة السابقة بدون حفظ
+                onPress={() => router.back()} 
             >
                 <Text style={[styles.saveThisTask, { color: "#318FFF" }]}>Cancel</Text>
             </TouchableOpacity>

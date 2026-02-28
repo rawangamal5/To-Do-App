@@ -10,7 +10,7 @@ export default function SplashScreen() {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      router.replace("/(tabs)/home"); // يروح للـ Home داخل Tabs
+      router.replace("/(tabs)/home"); 
     }, 5000);
 
     return () => clearTimeout(timer);

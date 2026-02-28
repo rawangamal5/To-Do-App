@@ -24,7 +24,6 @@ export default function CreateTask() {
   const [selectedDate, setSelectedDate] = useState(new Date());
   const [isDatePickerVisible, setDatePickerVisibility] = useState(false);
 
-  // كل مرة الصفحة تظهر، نرجع القيم للـ default
   useFocusEffect(
     useCallback(() => {
       setTaskTitle("");
