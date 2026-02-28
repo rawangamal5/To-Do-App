@@ -1,34 +1,36 @@
-import { Tabs } from 'expo-router';
-import React from 'react';
-
-import { HapticTab } from '@/components/haptic-tab';
-import { IconSymbol } from '@/components/ui/icon-symbol';
-import { Colors } from '@/constants/theme';
-import { useColorScheme } from '@/hooks/use-color-scheme';
+import { Tabs } from "expo-router";
+import React from "react";
+import "react-native-reanimated";
 
 export default function TabLayout() {
-  const colorScheme = useColorScheme();
-
   return (
     <Tabs
       screenOptions={{
-        tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
         headerShown: false,
-        tabBarButton: HapticTab,
-      }}>
+      }}
+    >
+      {/* Splash Tab */}
       <Tabs.Screen
-        name="index"
-        options={{
-          title: 'Home',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
-        }}
+        name="splash"
+        options={{ title: "Splash" }}
       />
+
+      {/* Home Tab */}
       <Tabs.Screen
-        name="explore"
-        options={{
-          title: 'Explore',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
-        }}
+        name="home"
+        options={{ title: "Home" }}
+      />
+
+      {/* Add Task Tab */}
+      <Tabs.Screen
+        name="create-task"
+        options={{ title: "Add Task" }}
+      />
+
+      {/* Edit Task Tab */}
+      <Tabs.Screen
+        name="edit-task"
+        options={{ title: "Edit Task" }}
       />
     </Tabs>
   );
